@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{margin: 0; padding: 0;}
+
+        .mbox{
+            width: 1200px;
+            height: 600px;
+            margin: 100px auto 0;
+            /* 중요!!!! */
+            border: 1px solid #333;
+            background-color: #ccc;
+            /* height: 500px; */
+            overflow: hidden;
+            /* 높이를 일부러 조절할 필요는 없음 */
+            padding-bottom: 20px; 
+        }
+
+        .mbox h1{text-align: center;
+                padding bottom: 20px;}
+
+        .box {
+            float: left;
+            width: 540px;
+            height: 200px;
+            border: 1px solid #0f0d63;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            margin top: 20px;
+        }
+
+       
+        .box1 h2{
+            text-align: left;
+            padding: 0 0 10px 0;
+            border-bottom: 1px solid #7c7c7c ;
+        }
+
+        .box2 h2{
+            text-align: left;
+            padding: 0 0 10px 0;
+            border-bottom: 1px solid #7c7c7c ;
+        }
+
+        .box3 h2{
+            text-align: left;
+            padding: 0 0 10px 0;
+            border-bottom: 1px solid #7c7c7c ;
+        }
+
+
+        .sbox_left{
+            width: 240px;
+            height: 160px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            border: 1px solid red;
+        }
+
+        .sbox_right{
+            width: 240px;
+            height: 160px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 12px;
+            border: 1px solid red;
+        
+        }
+
+        .sl_1{
+            background: url(images/m1.jpg) no-repeat 50% 50% /contain;
+        }
+
+        .s2_1{
+           background: url(images/m2.jpg) no-repeat 50% 50% /contain;
+        }
+
+        .s3_1{
+            background: url(images/m3.jpg) no-repeat 50% 50% /contain;
+        }
+
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="mbox">
+        <h1>커피의 종류</h1>
+            <div class="box box1">
+                <div class="sbox_left sl_1">
+                </div>
+
+                <div class="sbox_right s1_2">
+                    <h2>왕헛개아메리카노</h2>
+                        <p>big mega oriental</p><br/>
+                        <p>국내산 헛개수와 아메리카노를 블렌딩해 고소한 맛이 더욱 커진 왕메가사이즈 커피</p>
+                </div>
+            </div>
+            
+                <div class="box box2">
+                <div class="sbox_left s2_1">
+                </div>
+
+                <div class="sbox_right s2_2">
+                    <h2>할메가미숫커피</h2>
+                        <p>MEGA MGC Mix Coffee Blend with Grain Powder</p><br/>
+                        <p>곡물의 향이 고소한 미숫가루와 달달한 믹스커피의 황금비율 조합</p>
+                </div>
+                </div>
+
+
+                <div class="box box3">
+                <div class="sbox_left s3_1">
+                </div>
+
+                <div class="sbox_right s3_2">
+                    <h2>라이트 바닐라 아몬드라떼</h2>
+                        <p>big mega oriental</p><br/>
+                        <p>비건 음료 아몬드브리즈와 칼로리를 낮춘 라이트 바닐라 시럽이 만나 가볍지만 부드~러워진 라떼</p>
+                </div>
+                </div>
+
+
+            </div>  
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

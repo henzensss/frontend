@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+        *{margin: 0; padding: 0;}
+        ul,li{list-style: none;}
+        a{text-decoration: none; color: rgb(48, 48, 48);}
+        body{
+            font-family: "Nanum Gothic", sans-serif;
+            color: #666;
+        }
+
+        #wrap{
+            width: 1200px;
+            height: 700px;
+            margin: 0 auto;
+        }
+
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: pink;
+        }
+
+        header .logo{
+            float: left;
+            margin-top: 20px;
+            margin-left:20px ;
+        }
+
+        header .one{
+            margin-top: 50px;
+            float:right;
+            width: 600px;
+            height: 50px;
+        }
+
+        .one>li{float: left;}
+
+        .one li{background-color: yellow;}
+
+        .one li a{
+            display: block;
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .one li ul{
+            display: none;
+            position: absolute;
+        }
+
+        .one li:hover ul{
+            display: block;
+        }
+
+
+        .one>li:hover{
+            background-color: navy;
+        }
+
+        .one>li:hover>a{
+            color: #fff;
+        }
+
+        .one>li>ul>li>a:hover{
+            color:#fff;
+            background-color: orange;
+        }
+
+
+        #slider{
+            height: 300px;
+            background-color: salmon;
+        }
+
+        #contents{
+            height: 200px;
+            background-color: #ccc;
+        }
+
+        #contents > div {
+            float: left;
+            width: 400px;
+            height: 200px;
+        }
+
+        .notice{
+            background-color: aqua;
+        }
+
+        .banner{
+            background-color: rgb(199, 255, 109);
+        }
+
+        .icons{
+            background-color: rgb(202, 78, 6);
+        }
+
+        footer{
+            height: 100px;
+            background-color: bisque;
+        }
+
+        footer > div {float:left;}
+        .left{width: 950px; height: 100px;}
+        footer .f_menu{width: 850px; height: 100px; background-color: indianred;}
+        footer .f_copy{width: 950px; height: 50px; background-color: rgb(36, 80, 160);}
+
+        footer .f_logo{width: 250px; height: 50px; background-color: rgb(255, 4, 255);}
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div id="wrap">
+         <header>
+            <h1 class="logo">logo</h1>
+               <ul class="one">
+                <li><a href="#">mainmenu</a>
+                    <ul>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">mainmenu</a>
+                    <ul>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">mainmenu</a>
+                       <ul>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">mainmenu</a>
+                       <ul>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                        <li><a href="#">submenu</a></li>
+                    </ul>
+                </li>
+            </ul>
+         </header>
+
+         <div id="slider">
+         </div>
+
+         <div id="contents">
+            <div class="notice"></div>
+            <div class="banner"></div>
+            <div class="icons"></div>
+         </div>
+         
+         <footer>
+            <div class="left">
+                <!-- height -->
+                <div class="f_menu"></div>
+                <div class="f_copy"></div> 
+            </div>
+                <!--  -->
+            <div class="f_logo"></div>
+
+         </footer>
+
+
+    </div>
+</body>
+</html>
