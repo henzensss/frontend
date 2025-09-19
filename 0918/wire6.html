@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+
+.section1{
+    width:1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 30px 0;
+    border: 1px solid #333;
+}
+
+.section1 .bigbox li{
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 20px 30px ;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+.section1 .bigbox li:last-child{
+    margin-right: 0;
+}
+
+.txt1 span{
+    display: inline-block;
+    /*  inline-block은 줄바뀜없이 넓이 높이 부여하려고 사용  */
+    padding: 7px;
+    background-color: cadetblue;
+    color: #fff;
+}
+
+/* ----------------------- */
+
+.section2{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #333;
+    padding: 35px 0;
+    margin: 0 auto;
+}
+
+.left{
+    width: 220px;
+    height: 170px;
+    border: 1px solid #333;
+    padding: 10px 30px 20px 0px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.txt4{
+    margin-top: 30px;    
+}
+.txt5{
+    font-size: 15px;
+}
+
+.icon_wrap{
+    width: 780px;
+    float: left;
+}
+
+.icon_wrap>li{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 25px;
+    text-align: center;
+}
+
+.icon_wrap>li>p{
+    font-size: 14px;
+} 
+
+.icon{
+    width: 45px;
+    height: 45px;
+}
+
+.img1{
+    background-image: url(images/icon1.png) ;
+    background-position: 50% 50%;  
+}
+.img2{
+    background-image: url(images/icon2.png) ;
+    background-position: 50% 50%;  
+}
+.img3{
+    background-image: url(images/icon3.png) ;
+    background-position: 50% 50%;  
+}
+.img4{
+    background-image: url(images/icon4.png) ;
+    background-position: 50% 50%;  
+}
+.img5{
+    background-image: url(images/icon5.png) ;
+    background-position: 50% 50%;  
+}
+.img6{
+    background-image: url(images/icon6.png) ;
+    background-position: 50% 50%;  
+}
+.img7{
+    background-image: url(images/icon7.png) ;
+    background-position: 50% 50%;  
+}
+.img8{
+    background-image: url(images/icon8.png) ;
+    background-position: 50% 50%;  
+}
+
+</style>
+</head>
+<body>
+    <div class="section1">
+        <ul class="bigbox">
+            <li>
+                <div>
+                    <p class="txt1"><span>추천상품</span></p>
+                    <h3 class="txt2">건강한 자산관리 KB마이데이터</h3>
+                    <p class="txt3">높은 이율! 수수료 혜택!<br/>
+                    목적별 자금관리를 통장 하나로!
+                    </p>
+                </div>
+            </li>
+              <li>
+                <div>
+                    <p class="txt1"><span>서비스</span></p>
+                    <h3 class="txt2">KB마이핏통장</h3>
+                    <p class="txt3">각 기관에 흩어진 나의 자산을<br/>
+                        한 곳에 모아서 관리해보세요</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p class="txt1"><span>서비스</span></p>
+                    <h3 class="txt2">이동통신사서비스 Liiv M</h3>
+                    <p class="txt3">KB국민은행의 혁신금융서비스로<br/>
+                        금융권 최초로 제공하는 이동통신서비스</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="section2">
+            <ul class="left">
+                <h2 class="txt4">금융상품</h2>
+                <p class="txt5">바로가기 &#62;</p>
+            </ul>
+            <ul class="icon_wrap">
+                <li>
+                    <div class="icon img1"><img src="imgs/icon1.png" alt="예금"></div>
+                    <p>예금</p>
+                </li>
+                <li>
+                    <div class="icon img2"> <img src="imgs/icon2.png" alt="펀드"></div>
+                    <p>펀드</p>
+                </li>
+                <li>
+                    <div class="icon img3">  <img src="imgs/icon3.png" alt="대출"></div>
+                    <p>대출</p>
+                </li>
+                <li>
+                    <div class="icon img4"><img src="imgs/icon4.png" alt="신탁"></div>
+                    <p>신탁</p>
+                </li>
+                <li>
+                    <div class="icon img5"><img src="https://img.icons8.com/ios-filled/50/000000/organization.png" alt="ISA"></div>
+                    <p>ISA</p>
+                </li>
+                <li>
+                    <div class="icon img6"><img src="https://img.icons8.com/ios-filled/50/000000/umbrella.png" alt="보험/공제"></div>
+                    <p>보험/공제</p>
+                </li>
+                <li>
+                    <div class="icon img7"><img src="https://img.icons8.com/ios-filled/50/000000/gold-bars.png" alt="골드"></div>
+                    <p>골드</p>
+                </li>
+                <li>
+                    <div class="icon img8"><img src="https://img.icons8.com/ios-filled/50/000000/us-dollar.png" alt="외화예금"></div>
+                    <p>외화예금</p>
+                </li>
+            </ul>
+        </div>
+</body>
+</html>

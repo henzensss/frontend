@@ -1,0 +1,37 @@
+*{margin: 0 auto;}
+
+.section2{
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.title{
+    padding-bottom: 20px;
+}
+
+.title h2{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+ul.list{
+    height: 430px;
+    list-style: none;
+}
+
+.list li{
+    width: 330px; height: 430px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    padding: 50px 0px;
+    margin-right: 26.6px; 
+}
+
+.list li:nth-child(4){
+    margin-right: 0px;
+}
